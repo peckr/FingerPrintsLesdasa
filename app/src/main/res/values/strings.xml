@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">FingerPrintsLesdasa</string>
+    <string name="dispositivo">Dispositivo</string>
+    <string name="versión">Versión: 1.0</string>
+    <string name="developer">Desarrollado por Lizard Systems</string>
+    <string name="title_home">Marcar</string>
+    <string name="title_dashboard">Huella</string>
+    <string name="title_notifications">Información</string>
+    <string name="title_activity_device_list">Lista de Dispositivo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Siquiente</string>
+    <string name="previous">Atrás</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="action_sign_in">Ingresar</string>
+    <string name="title_empresa">Empresa</string>
+    <string name="title_empleado">Buscar empleado</string>
+    <string name="title_cedula">Cédula</string>
+    <string name="title_actualizar">Actualizar</string>
+    <string name="title_coloque_dedo">Coloque el dedo en el dispositivo</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Bienvenido! "</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">El Password debe tener más de 5 caracteres</string>
+    <string name="login_failed">"Login falló"</string>
+
+
+    <!--  BluetoothChat -->
+    <string name="send">Enviar</string>
+    <string name="not_connected">No estás conectado al dispositivo</string>
+   <string name="bt_not_enabled_leaving">El Bluetooth no está  activado. Salir del Chat de Bluetooth.</string>
+    <string name="title_connecting">Conectando...</string>
+    <string name="title_connected_to">conectado: </string>
+    <string name="title_not_connected">no conectado</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Buscando dispositivos...</string>
+    <string name="select_device">Selecciona un dispositivo</string>
+    <string name="none_paired">No se han emparejado dispositivos</string>
+    <string name="none_found">No encontraron dispoditivos</string>
+    <string name="title_paired_devices">Dispositivos emparejados</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="button_scan">Buscar dispositivos</string>
+
+
+    <string name="EnrolID">Enrol ID</string>
+    <string name="Verify">Verify ID</string>
+    <string name="Identify">Search</string>
+    <string name="DeleteID">Delete ID</string>
+    <string name="ClearID">Clear</string>
+
+    <string name="EnrolHost">Enrol Template [4]</string>
+    <string name="CaptureHost">Capture Template [5]</string>
+    <string name="Match">Match Template [8]</string>
+
+    <string name="PrintText">Print Text</string>
+    <string name="PrintBarcode">Print Barcode</string>
+
+    <string name="getdevsn">Device SN [1]</string>
+    <string name="getbat">Battery Value [2]</string>
+    <string name="getimage">Get Image [6]</string>
+    <string name="getdata">Get Data [7]</string>
+
+    <string name="closedevice">Close Device [9]</string>
+    <string name="getver">Get Version [3]</string>
+
+    <string name="testdata">Test</string>
+    <!-- Options Menu -->
+    <string name="connect">Connectar un dispositivo</string>
+    <string name="discoverable">Hacer reconocible</string>
+    <string name="connect_a_device">Connectar un dispositivo</string>
+    <string name="make_discoverable">Hacer reconocible</string>
+    <string name="ClearData">Clear Template</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to registro -->
+    <string name="cedula">Cédula</string>
+    <string name="buscar">Buscar</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="Probar">Probar</string>
+    <string name="title_registro">Registro</string>
+
+    <!-- Strings related to Home -->
+    <string name="marcar">Marcar</string>
+    <string name="cargando">...</string>
+
+    <string name="permisos">Permisos correctos</string>
+
+</resources>

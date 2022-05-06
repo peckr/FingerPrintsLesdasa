@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fgtit">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"
+        android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation"
+        />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"
+        android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH"
+        android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"
+        android:usesPermissionFlags="neverForLocation" />
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_les"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_les_round"
+
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/Theme.FingerPrintsLesdasa">
+
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.FingerPrintsLesdasa.NoActionBar" />
+        <activity
+            android:name=".DeviceListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_device_list"
+            android:theme="@style/AppDialogTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
